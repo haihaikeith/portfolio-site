@@ -42,25 +42,6 @@ a:visited {
   font-style: italic;
 }
 
-/*
-
-This is just to experiment with inheritance and @extend
-
-%button-shared {
-  display: -webkit-box;
-  color: var(--button-text);
-  width: 25%;
-  text-decoration: none;
-  background-color: var(--primary-color);
-  border: none;
-  border-radius: 3px;
-  border-bottom: 2px solid var(--primary-color-darken);
-  padding: 10px;
-  transition: .2s opacity;
-}
-
-*/
-
 ul {
   list-style-type: none;
 }
@@ -123,7 +104,7 @@ button:focus,
   width: 320px;
   height: auto;
   border-radius: 33%;
-  border: 1px solid black;
+ 
 }
 
 .profile-about {
@@ -201,7 +182,7 @@ button:focus,
   height: 2px;
   content: '';
   padding: 0 5px;
-  background: #d3b119;
+  background:#000;
   transition: all 0.3s;
 }
 

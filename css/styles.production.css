@@ -115,7 +115,7 @@ button:focus,
   width: 320px;
   height: auto;
   border-radius: 33%;
-  border: 1px solid black;
+  box-shadow: purple;
 }
 
 .profile-about {
